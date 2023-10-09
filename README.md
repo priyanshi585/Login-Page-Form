@@ -5,22 +5,57 @@ Welcome to the Hacktoberfest Login Form repository! This repository is created w
 
 This repository contains a basic HTML and CSS file that serves as a simple login form. It's designed to be beginner-friendly, making it a perfect place to start if you're new to open-source development or looking for a quick and fun Hacktoberfest project.
 ## How to Contribute
+
+Make your changes: You can make improvements, add features, fix bugs, or even improve documentation. Feel free to be creative!
+
 Contributing to this repository is easy and open to everyone. Here's how you can get started:
 
-Fork this repository: Click the "Fork" button at the top right corner of this page to create your own copy of this repository.
+1. Fork this repository: Click the "Fork" button at the top right corner of this page to create your own copy of this repository.
 
-Clone your fork: Use git clone to clone your forked repository to your local machine.
-
+2. Clone your fork: Use git clone to clone your forked repository to your local machine by replacing `your-username`.
 
 
 ```bash
 
-git clone https://github.com/your-username/hacktoberfest-login-form.git
+git clone https://github.com/your-username/Login-Page-Form.git
 
 ```
 
+3. Create a branch
 
-Make your changes: You can make improvements, add features, fix bugs, or even improve documentation. Feel free to be creative!
+This branch is where all of your contributions for a particular feature or item will reside.
+
+```sh
+git checkout -b branch-name
+```
+
+The branch name can be anything, but ideally it should be a one to three word summary of a feature or contribution you plan to make.
+
+4. The fun part (your contribution)
+
+At this point, everything is setup for you to make your changes to the repository. Once you are ready to save your changes, add and commit them.
+
+This command allows git Git to track your changes.
+
+```sh
+git add .
+```
+
+This command commits (saves) your changes for all files in the command. Make sure to add a useful and informative comment to document your changes.
+
+```sh
+git commit -m "your-message>
+```
+
+5. Push to origin
+
+Make your commits visible on Github.
+
+```sh
+git push origin branch-name
+```
+
+6. Create a Pull Request
 
 Create a Pull Request (PR): Once you've made your changes and are happy with them, submit a Pull Request to this repository. Provide a clear and concise description of your changes in the PR message.
 
