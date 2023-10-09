@@ -44,7 +44,7 @@ git add .
 This command commits (saves) your changes for all files in the command. Make sure to add a useful and informative comment to document your changes.
 
 ```sh
-git commit -m "your-message>
+git commit -m "your-message"
 ```
 
 5. Push to origin
