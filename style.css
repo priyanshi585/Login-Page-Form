@@ -8,34 +8,209 @@
 
 }
 .input-group_input{
-    font: inherit;
     color: #fff;
     padding: 10px;
     border: none;
     border-radius:4px ;
     outline: 2px solid #fff;
     background-color: transparent;
-    transition: outline-color 500ms;
+    /* transition: outline-color 500ms; */
 }
 
+#email{
+    font-size: 30px;
+    width: 500px;
+    margin-top: 10px;
+    
+}
+
+#Password{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+#Check1{
+   margin-top: 50px;
+   height: 20px;
+   width: 200px;
+   margin-left: -110px;
+}
+
+h4{
+    font-size: 20px;
+    margin-top: -20px;
+}
 .input-group_input:is(:focus, :valid){
     outline-color:#3897f0 !important;
 }
 body{
-    background-image: url("images/bg.png");
-    background-size: cover;
-    margin: .8rem;
+    background: url("https://c4.wallpaperflare.com/wallpaper/623/634/455/blurry-background-vi-wallpaper-preview.jpg")no-repeat center center/cover;
+    
+    /* margin: .8rem; */
+}
+
+h1{
+   margin-top: 100px;
+   margin-left: 600px;
+   font-size: 50px ;
+   color: black;
+}
+
+p{
+    margin-left: 480px;
+    margin-top: 20px;
 }
 
 .container{
     display: flex;
+    margin-left: 450px;
+    margin-top: 80px;
     align-items: center;
     justify-content:center;
-    height: 50vh;
-    width: 400px; 
-    background-color: rgba(255, 255, 255, 0.823); 
+    height: 300px;
+    width: 600px; 
+    /* background-color: rgba(203, 202, 202, 0.823);  */
+    opacity: 0.7;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.015); 
+    
+    
+}
+
+.btn{
+    margin-left: 180px;
+    margin-top: 25px;
+    font-size: 20px;
+    background-color: rgb(193, 184, 184);
+}
+
+.btn:hover{
+  background-color: red;
+  color: white;
+}
+
+a{
+    margin-left: 175px;
+    /* margin-top: 30px; */
+    font-size: 20px;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+
+/* -------Responsive design----------- */
+
+@media screen  and (max-width:700px) and (min-width: 350px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        min-height: 100%;
+        
+    }
+    .input-group{
+        position: relative;
+    
+    }
+    .input-group_input{
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius:4px ;
+        outline: 2px solid #fff;
+        background-color: transparent;
+        /* transition: outline-color 500ms; */
+    }
+    
+    #email{
+        font-size: 20px;
+        width: 300px;
+        margin-top: 90px;
+        
+    }
+    
+    #Password{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    
+    
+    #Check1{
+       margin-top: 50px;
+       height: 20px;
+       width: 200px;
+       margin-left: -105px;
+    }
+    
+    h4{
+        font-size: 20px;
+        margin-left: 0px ;
+        margin-top: -23px;
+    }
+    .input-group_input:is(:focus, :valid){
+        outline-color:#3897f0 !important;
+    }
+    body{
+        background: url("https://c4.wallpaperflare.com/wallpaper/623/634/455/blurry-background-vi-wallpaper-preview.jpg") no-repeat center center/cover ;
+        /* height: 100%; */
+        /* margin: .8rem; */
+    }
+    
+    h1{
+       margin-top: 150px;
+       margin-left: 70px;
+       font-size: 50px ;
+       color: black;
+    }
+    
+    p{
+        margin-left: 20px;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    
+    .container{
+        /* display: ; */
+        margin-left: -100px;
+        margin-top: -70px;
+        align-items: center;
+        justify-content:center;
+        height: 200%;
+        /* width: 600px;  */
+        /* background-color: rgba(203, 202, 202, 0.823);  */
+        opacity: 0.7;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.015); 
+        
+        
+    }
+    
+    .btn{
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: 20px;
+        background-color: rgb(193, 184, 184);
+    }
+    
+    .btn:hover{
+      background-color: red;
+      color: white;
+    }
+    
+    a{
+        margin-left: 15px;
+        /* margin-top: 30px; */
+        font-size: 20px;
+    }
+    
+    a:hover{
+        color: red;
+        text-decoration: none;
+    }
     
     
 }
